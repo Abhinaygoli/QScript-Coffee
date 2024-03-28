@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #555;
+}
+
+.hero {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/054/239/267/large/chill-jazz-coffee-thumbnai.jpg?1664091148');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-content > h1{
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.hero-content > p{
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.hero-content > button{
+    background-color:black;
+    border-radius: 5px;
+    border: 0px solid aqua;
+    padding: 10px 15px;
+}
+
+.cta-btn{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cta-btn:hover{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container>h2{
+    font-size: 30px;
+}
+
+.about,
+.menu,
+.contact {
+    padding: 30px 0;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+#contact-form{
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
